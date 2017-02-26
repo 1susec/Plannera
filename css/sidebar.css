@@ -1,0 +1,258 @@
+/************************
+Designed by : http://responsivewebinc.com
+************************/
+/* Open Sans  */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600');
+/* General */
+.st219 {
+	color: #666666;
+	font-size: 13px;
+	line-height: 23px;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #666;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin: 2px 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+
+.tab-content .tab-pane h3
+{
+	color: #337ab7;
+	font-size : 14;
+	line-height: 24px;
+	text-transform:uppercase;
+}
+.tab-content .tab-pane h3 i
+{
+		margin-right:5px;
+}
+	
+
+a:hover,a:active,a:focus {
+	outline: 0;
+	text-decoration: none;
+	color: #999;
+}
+hr {
+	margin: 10px 0px;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 1px solid #eee;
+}
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+	border:0;
+}
+/* Text color classes */
+.white {
+  color: #ffffff !important;
+}
+.grey {
+  color: #eeeeee !important;
+}
+.black {
+  color: #555555 !important;
+}
+.red {
+  color: #f75353 !important;
+}
+.green {
+  color: #51d466 !important;
+}
+.lblue {
+  color: #32c8de !important;
+}
+.blue {
+  color: #609cec !important;
+}
+.orange {
+  color: #f78153 !important;
+}
+.yellow {
+  color: #fcd419 !important;
+}
+.purple {
+  color: #cb79e6 !important;
+}
+.rose {
+  color: #ff61e7 !important;
+}
+.brown {
+  color: #d08166 !important;
+}
+/* Background color classes */
+.bg-white {
+  background-color: #ffffff !important;
+}
+.bg-grey {
+  background-color: #eeeeee !important;
+}
+.bg-black {
+  background-color: #555555 !important;
+}
+.bg-red {
+  background-color: #f75353 !important;
+}
+.bg-green {
+  background-color: #51d466 !important;
+}
+.bg-lblue {
+  background-color: #32c8de !important;
+}
+.bg-blue {
+  background-color: #609cec !important;
+}
+.bg-orange {
+  background-color: #f78153 !important;
+}
+.bg-yellow {
+  background-color: #fcd419 !important;
+}
+.bg-purple {
+  background-color: #cb79e6 !important;
+}
+.bg-rose {
+  background-color: #ff61e7 !important;
+}
+.bg-brown {
+  background-color: #d08166 !important;
+}
+/* Border color classes */
+.br-white {
+  border: 1px solid #ffffff !important;
+}
+.br-grey {
+  border: 1px solid #eeeeee;
+}
+.br-black {
+  border: 1px solid #555555;
+}
+.br-red {
+  border: 1px solid #f75353;
+}
+.br-green {
+  border: 1px solid #51d466;
+}
+.br-lblue {
+  border: 1px solid #32c8de;
+}
+.br-blue {
+  border: 1px solid #609cec;
+}
+.br-orange {
+  border: 1px solid #f78153;
+}
+.br-yellow {
+  border: 1px solid #fcd419;
+}
+.br-purple {
+  border: 1px solid #cb79e6;
+}
+.br-rose {
+  border: 1px solid #ff61e7;
+}
+.br-brown {
+  border: 1px solid #d08166;
+}
+/* Button classes */
+
+/* Label */
+
+/* Badges */
+
+/* Social Media */
+
+
+/* General CSS */
+
+/* UI - X */
+.ui-219{
+	margin: 60px 0px;
+}
+/* Column Mobile */
+@media(max-width: 500px){
+	.ui-219 .col-mob{
+		width: 100%;
+	}
+}
+/* Item */
+.ui-219 .ui-item{
+	max-width: 265px;
+}
+/* Unordered Listing */
+.ui-219 .ui-item ul{
+	float: left;
+	width: 50px;
+	padding:0px;
+	list-style-type:none;
+}
+.ui-219 .ui-item ul > li > a{
+	display:block;
+	padding: 12px 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.2);
+}
+.ui-219 .ui-item ul > li.active > a{
+	color: #555;
+	background: #fff;
+}
+/* Tab Content */
+.ui-219 .ui-item .tab-content{
+	margin-left: 50px;
+	padding: 10px 20px;
+	background:#fff;
+	border:1px solid #e7e7e7;
+	box-shadow:1px 1px 0px 1px rgba(0,0,0,0.06);
+	border-radius:3px;
+	border-top-left-radius:0px;
+	position:relative;
+	left:-1px;
+}
+/* Heading */
+.ui-219 .ui-item .tab-content h3{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform:uppercase;
+}
+/* Icon */
+.ui-219 .ui-item .tab-content h3 > a > i{
+	margin-right:2px;
+}
+/* Paragraph */
+.ui-219 .ui-item .tab-content p{
+	color: #888;
+	font-size: 12px;
+	line-height: 26px;
+	margin-top:5px;
+}
+
+.ui-219 .ui-item ul.remove-float{
+	float:none !important;
+	margin-left: 25px;
+}
+
+.ui-219 .ui-item ul.remove-float li{
+	white-space: nowrap;
+	margin-bottom:5px;
+	line-height:20px;
+}
