@@ -192,6 +192,11 @@ hr {
 	.ui-219 .col-mob{
 		width: 100%;
 	}
+
+	.ui-219 .ui-item{
+	max-width: 265px;
+}
+
 }
 /* Item */
 .ui-219 .ui-item{
@@ -255,4 +260,10 @@ hr {
 	white-space: nowrap;
 	margin-bottom:5px;
 	line-height:20px;
+}
+
+ui-219 .fillPage
+{
+	position: relative;
+	height: 80% !important;
 }

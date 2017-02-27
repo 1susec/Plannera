@@ -48,6 +48,8 @@ h6 {
 .navbar-mine
 {
     padding-left: 0px;
+    position: fixed;
+    height: 80% !important;
 }
 
 .topnav {
@@ -102,6 +104,48 @@ ul.notifications li {
 	padding-left: 0;
 	padding: 10px;
 }
+
+/* body */
+
+.body-content
+{
+    position: absolute;
+    left:300px;
+}
+
+.body-content .body-title-content
+{
+    
+	padding: 0px 5px;
+	background:#fff;
+	border:1px solid #e7e7e7;
+	box-shadow:1px 1px 0px 1px rgba(0,0,0,0.06);
+	border-radius:3px;
+	border-top-left-radius:0px;
+/*	position:fixed; */
+    width: 98%;
+    height: 45px;
+}
+
+.body-content .body-title-content h2
+{
+	font-size: 15px;
+}
+
+.body-content .body-title-content h2 .caret-mine
+{
+    margin-left: 0px;
+    padding-top: 8px;
+}
+
+.body-content .body-content-content
+{
+    margin-top: 10px;
+    width: 97%;
+}
+
+
+/* media */
 
 @media(max-width:767px) {
     .intro-message {
